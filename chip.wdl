@@ -1010,7 +1010,6 @@ task merge_fastq { # merge trimmed fastqs
 		cpu : 1
 		memory : "8000 MB"
 		time : 2
-		disks : "local-disk 100 HDD"
 	}
 }
 
@@ -1030,7 +1029,6 @@ task trim_fastq { # trim fastq (for PE R1 only)
 		cpu : 1
 		memory : "8000 MB"
 		time : 1
-		disks : "local-disk 50 HDD"
 	}
 }
 
@@ -1162,7 +1160,6 @@ task spr { # make two self pseudo replicates
 		cpu : 1
 		memory : "${mem_mb} MB"
 		time : 1
-		disks : "local-disk 50 HDD"
 	}
 }
 
@@ -1180,7 +1177,6 @@ task pool_ta {
 		cpu : 1
 		memory : "4000 MB"
 		time : 1
-		disks : "local-disk 50 HDD"
 	}
 }
 
@@ -1271,7 +1267,6 @@ task choose_ctl {
 		cpu : 1
 		memory : "8000 MB"
 		time : 1
-		disks : "local-disk 50 HDD"
 	}	
 }
 
@@ -1406,7 +1401,6 @@ task idr {
 		cpu : 1
 		memory : "4000 MB"
 		time : 1
-		disks : "local-disk 50 HDD"
 	}	
 }
 
@@ -1448,7 +1442,6 @@ task overlap {
 		cpu : 1
 		memory : "4000 MB"
 		time : 1
-		disks : "local-disk 50 HDD"
 	}	
 }
 
@@ -1487,7 +1480,6 @@ task reproducibility {
 		cpu : 1
 		memory : "4000 MB"
 		time : 1
-		disks : "local-disk 50 HDD"
 	}	
 }
 
@@ -1608,7 +1600,6 @@ task qc_report {
 		cpu : 1
 		memory : "4000 MB"
 		time : 1
-		disks : "local-disk 50 HDD"
 	}	
 }
 
@@ -1626,7 +1617,6 @@ task read_genome_tsv {
 		cpu : 1
 		memory : "4000 MB"
 		time : 1
-		disks : "local-disk 50 HDD"		
 	}
 }
 
@@ -1651,7 +1641,6 @@ task rounded_mean {
 		cpu : 1
 		memory : "4000 MB"
 		time : 1
-		disks : "local-disk 50 HDD"
 	}	
 }
 
@@ -1744,6 +1733,5 @@ task compare_md5sum {
 		cpu : 1
 		memory : "4000 MB"
 		time : 1
-		disks : "local-disk 50 HDD"		
 	}
 }

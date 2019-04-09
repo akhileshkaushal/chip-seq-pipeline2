@@ -1,0 +1,13 @@
+blacklist	s3://encode-pipeline-genome-data/hg38_chr19_chrM/hg38.blacklist.bed.gz
+chrsz	s3://encode-pipeline-genome-data/hg38_chr19_chrM/hg38_chr19_chrM.chrom.sizes
+gensz	hs
+bowtie2_idx_tar	s3://encode-pipeline-genome-data/hg38_chr19_chrM/bowtie2_index/GRCh38_no_alt_analysis_set_GCA_000001405.15.chr19_chrM.fasta.tar
+bwa_idx_tar	s3://encode-pipeline-genome-data/hg38_chr19_chrM/bwa_index/GRCh38_no_alt_analysis_set_GCA_000001405.15.chr19_chrM.fasta.tar
+ref_fa	s3://encode-pipeline-genome-data/hg38_chr19_chrM/GRCh38_no_alt_analysis_set_GCA_000001405.15.chr19_chrM.fasta
+tss_enrich	s3://encode-pipeline-genome-data/hg38/ataqc/null
+dnase	s3://encode-pipeline-genome-data/hg38/ataqc/null
+prom	s3://encode-pipeline-genome-data/hg38/ataqc/null
+enh	s3://encode-pipeline-genome-data/hg38/ataqc/null
+reg2map	s3://encode-pipeline-genome-data/hg38/ataqc/null
+reg2map_bed	s3://encode-pipeline-genome-data/hg38/ataqc/null
+roadmap_meta	s3://encode-pipeline-genome-data/hg38/ataqc/null
